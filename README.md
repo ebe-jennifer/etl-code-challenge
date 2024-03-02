@@ -1,0 +1,2 @@
+# etl-code-challenge
+ Using MySQL's public employee sample database, create a DAG to move data from the employee's table to BigQuery. There should also be two different dags, which would have different logic. The first dag should be a full load dag, which moves all the data from the employee's table to BigQuery, while the second dag would be an incremental dag, which would move data daily and only contain changes that have happened in the past day
